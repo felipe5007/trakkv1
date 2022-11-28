@@ -1,12 +1,12 @@
-import logo from './img/logo.svg';
+import React from 'react';
 import './App.css';
-import './components/Navbar/Navbar.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Topnav from './components/Navbar/Topnav';
 
 function App() {
   return (
     <div className="App">
-      <navBar/>
-     <h1>Trakk</h1>
+      <Topnav/>
     </div>
   );
 }
